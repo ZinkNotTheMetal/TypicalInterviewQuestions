@@ -1,0 +1,64 @@
+﻿http://csharpstar.com/top-20-google-amazon-programming-interview-questions/
+
+Completed 1,4,6,7,8,9,11,12,13,14,15,19
+
+1. What kind of type is a string?
+	Reference
+2. What kind of type is a double?
+	Value
+3. What keyword defines a custom value type?
+	struct
+4. Can a class have more than one direct base class?
+	No
+5. What keyword makes a member visible to inherited classes?
+	protected
+6. What keyword makes a class visible only within its assembly?
+	internal
+7. What keyword allows a method to be overridden?
+	virtual
+8. What keyword requires a method to be overridden?
+	abstract
+9. What keyword prevents a class from being used as a base class?
+	sealed
+10. What keyword returns true if a cast will succeed?
+	is
+11. What keyword returns null if a cast will not succeed?
+	as
+12. What keyword ensures code execution even if an exception occurs?
+	finally
+13. What keyword calls IDisposable.Dispose?
+	using
+14. What keyword constrains a generic type argument to derive from a particular class?
+	where
+15. What two keywords used together return IEnumerable<T>?
+	yield return
+16. What keyword would you use to define an inline variable in a LINQ query?
+	let - did not know this
+17. What keyword brings an extension method into scope?
+	using - top of file
+18. What keyword do you add to a delegate to force subscribers to use += or –=?
+	event
+19. What method do you call on a delegate to run it on a background thread?
+	BeginInvoke
+20. What keyword provides thread synchronization?
+	lock
+
+Overload vs Override
+-Overloaded means that a method has the same name but different method signature
+-Overriden means that a method shares the name and signature of a base or abstract class. But is overriden
+	in the inheritted class
+
+Abstract class vs Interface
+	An abstract class can have shared state or functionality. An interface is only a promise to provide the
+	 state or functionality. A good abstract class will reduce the amount of code that has to be rewritten 
+	 because it's functionality or state can be shared. The interface has no defined information to be shared
+
+Protected:
+	A protected member is accessible from within the class in which it is declared, and from within any class 
+	 derived from the class that declared this member.
+
+Internal:
+	Internal types or members are accessible only within files in the same assembly.
+
+This means that a "procted internal" member (combination of these two) will be visible only to classes that 
+derive from the class that declares that member *and* are declared in a file in the same assembly.
