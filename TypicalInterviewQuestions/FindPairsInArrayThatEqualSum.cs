@@ -2,7 +2,7 @@
 
 namespace TypicalInterviewQuestions
 {
-    //#6 in Amazon / Google Questions
+    //How to find all pairs of elements in an integer array, whose sum is equal to a given number?
     public static class FindPairsInArrayThatEqualSum
     {
         public static List<KeyValuePair<int, int>> FindPairsThatEqualSum(this int[] input, int sum)
@@ -22,6 +22,12 @@ namespace TypicalInterviewQuestions
             return result.Count == 0 ? null : result;
         }
 
+        /// <summary>
+        ///     Returns bool if the array has any elements equal to the pair.
+        /// </summary>
+        /// <param name="input">Array of elements</param>
+        /// <param name="sum">Desired sum</param>
+        /// <returns cref="bool">True if it has a pair that equals the sum, False if it does not.</returns>
         public static bool HasPairsThatEqualSum(this int[] input, int sum)
         {
             return FindPairsThatEqualSum(input, sum).Count > 0;

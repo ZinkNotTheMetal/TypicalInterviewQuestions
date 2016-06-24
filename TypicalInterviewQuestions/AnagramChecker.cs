@@ -4,7 +4,10 @@ using System.Linq;
 
 namespace TypicalInterviewQuestions
 {
-    //#4 in Amazon / Google Questions
+    //Write a Program which checks if two Strings are Anagram or not?
+    //An anagram is direct word switch or word play, the result of rearranging the letters 
+    //  of a word or phrase to produce a new word or phrase, using all the original letters 
+    //  exactly once; for example, the word anagram can be rearranged into nag-a-ram.
     public class AnagramChecker
     {
         public bool CorrectValidation(string input, string comparitor)
@@ -28,7 +31,7 @@ namespace TypicalInterviewQuestions
 
             foreach (var character in enumerator)
             {
-                if(!comparitorCharacterList.Contains(character)) return false;
+                if (!comparitorCharacterList.Contains(character)) return false;
                 characterList.Remove(character);
                 comparitorCharacterList.Remove(character);
             }

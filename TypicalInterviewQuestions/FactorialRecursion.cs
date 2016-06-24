@@ -1,6 +1,6 @@
 ﻿namespace TypicalInterviewQuestions
 {
-    //#11 in Amazon / Google Questions
+    //Write a function to calculate factorial using recursion?
     public class FactorialRecursion
     {
         public int Calculate(int factorial)

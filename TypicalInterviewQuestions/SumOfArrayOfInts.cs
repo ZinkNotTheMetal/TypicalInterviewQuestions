@@ -2,6 +2,8 @@
 
 namespace TypicalInterviewQuestions
 {
+    //Write an algorithm that sums up all integers in a given array.
+    //Account for long to avoid integer overflow exception.
     public class SumOfArrayOfInts
     {
         public long SumOfEvenNumbersWithLinq(int[] input)

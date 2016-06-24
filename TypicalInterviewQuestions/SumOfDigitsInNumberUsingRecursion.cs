@@ -1,6 +1,6 @@
 ﻿namespace TypicalInterviewQuestions
 {
-    //#19 in Amazon / Google Questions
+    //How to find sum of digits of a number using Recursion?
     public class SumOfDigitsInNumberUsingRecursion
     {
         public int Sum(int input)

@@ -2,7 +2,7 @@
 
 namespace TypicalInterviewQuestions
 {
-    //#7 in Amazon / Google Questions
+    //Write a function to print nth number in Fibonacci series?
     public class FibonacciPrint
     {
         public int PrintNthElementInSequence(int nthElement)

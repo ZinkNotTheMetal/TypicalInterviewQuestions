@@ -4,11 +4,15 @@ using System.Linq;
 
 namespace TypicalInterviewQuestions
 {
-    //#1 in Amazon / Google Questions
     //Given an unsorted array which has a number in the majority 
-    //(a number appears more than 50% in the array), find that number?
+    //  (a number appears more than 50% in the array), find that number?
     public class FindNumberUnsortedArrayMajority
     {
+        /// <summary>
+        ///     Takes an array of integers and finds if a number appears more than 50% in the array.
+        /// </summary>
+        /// <param name="input">Array of integers</param>
+        /// <returns cref="int">-1 if not found. Or integer value if found.</returns>
         public int FindNumberWithinArray(int[] input)
         {
             //Trying to find out what count is actually majority

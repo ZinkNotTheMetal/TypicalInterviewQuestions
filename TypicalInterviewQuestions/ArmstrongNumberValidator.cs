@@ -2,12 +2,15 @@
 
 namespace TypicalInterviewQuestions
 {
-    //#12 in Amazon / Google Questions
+    //Write an algorithm to check if a number is Armstrong number or not?
+    //An Armstrong number of three digits is an integer such that the 
+    //  sum of the cubes of its digits is equal to the number itself. 
+    //  For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
     public class ArmstrongNumberValidator
     {
         public bool Validate(int input)
         {
-            if(input < 0) throw new ArgumentException("Can only validate positive numbers 0 or above.");
+            if (input < 0) throw new ArgumentException("Can only validate positive numbers 0 or above.");
             if (input == 0) return true;
 
             int digits = Convert.ToInt32(Math.Floor(Math.Log10(input) + 1));

@@ -2,7 +2,8 @@
 
 namespace TypicalInterviewQuestions
 {
-    //#14 in Amazon / Google Questions
+    //Write an algorithm to check if a number is Palindrome?
+    //A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.
     public class PalindromeChecker
     {
         public bool Validate(string input)

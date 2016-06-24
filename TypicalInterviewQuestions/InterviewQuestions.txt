@@ -1,8 +1,4 @@
-﻿http://csharpstar.com/top-20-google-amazon-programming-interview-questions/
-
-Completed 1,4,6,7,8,9,11,12,13,14,15,19
-
-1. What kind of type is a string?
+﻿1. What kind of type is a string?
 	Reference
 2. What kind of type is a double?
 	Value

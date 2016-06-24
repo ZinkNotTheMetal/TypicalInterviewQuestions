@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 
 namespace TypicalInterviewQuestions
 {
-    //#9 in Amazon / Google Questions
+    //Write a function to remove duplicate characters from String?
     //With a hint of fun - leave the first letter remove all other duplicates keep casing
     public static class RemoveDuplicateCharactersFromString
     {
