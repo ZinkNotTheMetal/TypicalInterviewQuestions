@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TypicalInterviewQuestions/v14
+/FizzBuzz.Application/bin/Debug
+/FizzBuzz.Application/obj/Debug
+/FizzBuzz.Application/FizzBuzz.Application.v2.ncrunchproject
+/FizzBuzz.Tests/obj/Debug
+/packages
+/TypicalInterviewQuestions/TypicalInterviewQuestions.v2.ncrunchproject
+/_NCrunch_TypicalInterviewQuestions/TypicalInterviewQuestions.crunchsolution.cache
+/TypicalInterviewQuestions.ncrunchsolution.user
+/TypicalInterviewQuestions/bin/Debug
+/TypicalInterviewQuestions/obj/Debug
+/TypicalInterviewQuestions.Tests/bin/Debug
+/TypicalInterviewQuestions.Tests/obj/Debug

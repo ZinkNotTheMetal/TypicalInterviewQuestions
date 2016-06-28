@@ -1,0 +1,7 @@
+﻿SOLID is a mnemonic acronym introduced by Michael Feathers for the "first five principles" named by Robert C. Martin in the early 2000s
+
+S - Single Responsibility
+O - Open / Closed Principle
+L - Liskov Substitution
+I - Interface Segregation
+D - Dependency Inversion
