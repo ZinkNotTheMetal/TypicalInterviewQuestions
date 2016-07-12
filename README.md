@@ -1,14 +1,14 @@
 Typical Interview Questions & Answers
 ==================
 
-  - [HTML](#HTML)
-  - [JavaScript](#JavaScript)
-  - [ASP.NET](#ASP.NET)
-    - [MVC](#MVC)
+  - [HTML](#html)
+  - [JavaScript](#javascript)
+  - [ASP.NET](#aspnet)
+    - [MVC](#mvc)
     - [WebForms](#webforms)
-  - [C#](#c-sharp)
-  - [SQL](#sql-section)
-  - [Generic / Leftovers](#generic-section)
+  - [C#](#c)
+  - [SQL](#sql)
+  - [Generic / Leftovers](#genericleftovers)
  
 ## HTML
 
