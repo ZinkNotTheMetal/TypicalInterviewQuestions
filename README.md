@@ -1,22 +1,23 @@
-<h1>Typical Interview Questions & Answers</h1>
+Typical Interview Questions & Answers
+==================
 
-<ul>
-  <li><a href="#htmlSection">HTML</a></li>
-  <li>JavaScript</li>
-  <li>ASP.NET MVC</li>
-  <li>ASP.NET WebForms</li>
-  <li>C#</li>
-  <li>SQL</li>
-  <li>Generic</li>
-</ul>
-
-<h2 id="#htmlSection">HTML</h2>
-
-
-<h2>JavaScript</h2>
+  - [HTML](#HTML)
+  - [JavaScript](#JavaScript)
+  - [ASP.NET](#ASP.NET)
+    - [MVC](#MVC)
+    - [WebForms](#webforms)
+  - [C#](#c-sharp)
+  - [SQL](#sql-section)
+  - [Generic / Leftovers](#generic-section)
+ 
+## HTML
 
 
-<h2>ASP.NET MVC</h2>
+## JavaScript
+
+## ASP.NET
+
+### MVC
 <li>How can we maintain sessions in MVC?</li>
  <h6>
  <li>tempdata</li>
@@ -37,10 +38,10 @@
   </ol>
   </h6>
   
-<h2>ASP.NET WebForms</h2>
+### WebForms
 
 
-<h2>C#</h2>
+## C#
 <h4>Types</h4>
 <li>What kind of type is a string?</li>
 	<h6>Reference</h6>
@@ -120,7 +121,8 @@
 	DataReader then it's still open. In addition, a DataReader is a forward only approach to reading data that can't be 
 	manipulated. With a DataSet you can move back and forth and manipulate the data as you see fit.</h6>
 
-<h2>SQL</h2>
+## SQL
+
 <li>What is a left outer join? What is an example.</li>
   <h6>Outer is an optional keyword in sql server. That being said this would be a LEFT JOIN.
 	A LEFT JOIN gets all data from the left (or first table) and joins it to the right (or second table) matching null where they do not line up.
@@ -145,9 +147,11 @@
 <li>What are advantages to using indexes?  Disadvantages?</li>
 	<h6>Indexes (typically) speed up SELECT's and slow down INSERT's.</h6>
 
-<h2>Generic</h2>
+## Generic / Leftovers
 <li>Explain the difference between managed and unmanaged code.</li>
 	<h6>Managed code is code that has its execution managed by the .NET Framework Common Language Runtime.</h6>
 	
 <li>Inheritance vs Composition.  Which one should you choose?</li>
 	<h6>Favor composition over inheritance</h6>
+
+
