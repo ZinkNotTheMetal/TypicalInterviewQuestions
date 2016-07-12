@@ -6,7 +6,13 @@ Typical Interview Questions & Answers
   - [ASP.NET](#aspnet)
     - [MVC](#mvc)
     - [WebForms](#webforms)
-  - [C#](#c)
+  - [C#](#c-sharp)
+    - [Types](#types)
+    - [Class](#classes)
+    - [Method](#method)
+    - [Keyword](#keyword)
+    - [Generic C# Questions](#genric-c)
+    - [ADO.NET](#adonet)
   - [SQL](#sql)
   - [Generic / Leftovers](#genericleftovers)
  
@@ -41,8 +47,9 @@ Typical Interview Questions & Answers
 ### WebForms
 
 
-## C#
-<h4>Types</h4>
+## C-Sharp
+
+### Types
 <li>What kind of type is a string?</li>
 	<h6>Reference</h6>
 <li>What kind of type is a double?</li>
@@ -50,7 +57,7 @@ Typical Interview Questions & Answers
 <li>What keyword defines a custom value type?</li>
   <h6>struct</h6>
   
-<h4>Classes</h4>
+### Class
 <li>Can a class have more than one direct base class?</li>
 	<h6>No</h6>
 <li>Difference between Abstract class & Interface</li>
@@ -59,7 +66,9 @@ Typical Interview Questions & Answers
 	 because it's functionality or state can be shared. The interface has no defined information to be shared
 	 just a contract of what the class will include.
 </h6>	
-<h4>Methods</h4>
+
+### Method
+
 <li>What method do you call on a delegate to run it on a background thread?</li>
 	<h6>BeginInvoke</h6>
 <li>Describe Overriding</li>
@@ -68,7 +77,8 @@ Typical Interview Questions & Answers
   <h6>Overloading means that a method has the same name in the class but a different method signature</h6>
 
 	
-<h4>Keywords</h4>
+### Keyword
+
 <li>What keyword makes a member visible to inherited classes?</li>
 	<h6>protected</h6>
 <li>What keyword makes a class visible only within its assembly?</li>
@@ -109,12 +119,14 @@ Typical Interview Questions & Answers
 	A static method belongs to the class rather than object of a class. 
 	A static method invoked without the need for creating an instance of a class.</h6>
 
-<h4>Generic</h4>
+### Generic C#
+
 <li>What are extension methods? What are some examples.</li>
   <h6>Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type
 	LINQ, ToString, Split...</h6>
 	
-<h4>ADO.NET</h4>
+### ADO.NET
+
 <li>Should you use ADO.NET DataReader or Dataset?  Why?</li>
 	<h6>It depends on your needs. One of the most important differences is that a DataReader will retain an open connection 
 	to your database until you're done with it while a DataSet will be an in-memory object. If you bind a control to a 
@@ -148,6 +160,7 @@ Typical Interview Questions & Answers
 	<h6>Indexes (typically) speed up SELECT's and slow down INSERT's.</h6>
 
 ## Generic / Leftovers
+
 <li>Explain the difference between managed and unmanaged code.</li>
 	<h6>Managed code is code that has its execution managed by the .NET Framework Common Language Runtime.</h6>
 	
