@@ -7,23 +7,26 @@ Typical Interview Questions & Answers
     - [MVC](#mvc)
     - [WebForms](#webforms)
   - [C#](#c-sharp)
-    - [Types](#types)
-    - [Class](#classes)
+    - [Type](#type)
+    - [Class](#class)
     - [Method](#method)
     - [Keyword](#keyword)
     - [Generic C# Questions](#genric-c)
     - [ADO.NET](#adonet)
   - [SQL](#sql)
-  - [Generic / Leftovers](#genericleftovers)
+  - [Generic / Leftovers](#generic--leftovers)
  
 ## HTML
 
 
 ## JavaScript
 
+
 ## ASP.NET
 
+
 ### MVC
+
 <li>How can we maintain sessions in MVC?</li>
  <h6>
  <li>tempdata</li>
@@ -49,7 +52,7 @@ Typical Interview Questions & Answers
 
 ## C-Sharp
 
-### Types
+### Type
 <li>What kind of type is a string?</li>
 	<h6>Reference</h6>
 <li>What kind of type is a double?</li>
