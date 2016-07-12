@@ -11,7 +11,7 @@ Typical Interview Questions & Answers
     - [Class](#class)
     - [Method](#method)
     - [Keyword](#keyword)
-    - [Generic C# Questions](#genric-c)
+    - [Generic C# Questions](#generic-c-sharp)
     - [ADO.NET](#adonet)
   - [SQL](#sql)
   - [Generic / Leftovers](#generic--leftovers)
@@ -122,7 +122,7 @@ Typical Interview Questions & Answers
 	A static method belongs to the class rather than object of a class. 
 	A static method invoked without the need for creating an instance of a class.</h6>
 
-### Generic C#
+### Generic C-Sharp
 
 <li>What are extension methods? What are some examples.</li>
   <h6>Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type
