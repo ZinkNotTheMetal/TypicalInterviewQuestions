@@ -2,6 +2,7 @@ Typical Interview Questions & Answers
 ==================
 
   - [HTML](#html)
+  - [CSS](#css)
   - [JavaScript](#javascript)
   - [ASP.NET](#aspnet)
     - [MVC](#mvc)
@@ -19,6 +20,7 @@ Typical Interview Questions & Answers
  
 ## HTML
 
+## CSS
 
 ## JavaScript
 
@@ -49,6 +51,23 @@ Typical Interview Questions & Answers
   
 ### WebForms
 
+<li>List all page life-cycle events.</li>
+   <h6>
+   <ul>
+   <li>PreInit</li>
+   <li>Init</li>
+   <li>InitComplete</li>
+   <li>LoadViewState</li>
+   <li>LoadPostData</li>
+   <li>PreLoad</li>
+   <li>Load</li>
+   <li>LoadComplete</li>
+   <li>PreRender</li>
+   <li>PreRenderComplete</li>
+   <li>SaveStateComplete</li>
+   <li>Unload</li>
+   </ul>
+   </h6>
 
 ## C-Sharp
 
