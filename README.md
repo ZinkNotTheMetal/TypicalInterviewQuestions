@@ -12,6 +12,7 @@ Typical Interview Questions & Answers
     - [Method](#method)
     - [Keyword](#keyword)
     - [Generic C# Questions](#generic-c-sharp)
+    - [Entity](#entity-framework)
     - [ADO.NET](#adonet)
   - [SQL](#sql)
   - [Generic / Leftovers](#generic--leftovers)
@@ -23,7 +24,6 @@ Typical Interview Questions & Answers
 
 
 ## ASP.NET
-
 
 ### MVC
 
@@ -128,6 +128,8 @@ Typical Interview Questions & Answers
   <h6>Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type
 	LINQ, ToString, Split...</h6>
 	
+### Entity Framework
+	
 ### ADO.NET
 
 <li>Should you use ADO.NET DataReader or Dataset?  Why?</li>
@@ -159,8 +161,48 @@ Typical Interview Questions & Answers
 	  <li>Lot of overhead for simple stored procedures</li>
 	</ul>
 </h6>
+
 <li>What are advantages to using indexes?  Disadvantages?</li>
-	<h6>Indexes (typically) speed up SELECT's and slow down INSERT's.</h6>
+   <h6>Indexes (typically) speed up SELECT's and slow down INSERT's.</h6>
+
+<li>What are the difference between clustered and a non-clustered index?</li>
+   <h6>
+   	<li>A clustered index is a special type of index that reorders the way records in the table are physically stored.</li>
+   	<li>A non clustered index is a special type of index in which the logical order of the index does not match the physical stored order of the rows on disk.</li>
+   </h6>
+
+<li>Is it possible to have temporary tables in Views?</li>
+   <h6>No, a view consists of a single SELECT statement. You cannot create or drop tables in a view.</h6>
+   
+<li>What are the different types of triggers?</li>
+   <h6>
+   	<ul>
+   	   <li>DDL - Data Definition Language (trigger based on CREATE, ALTER, DROP)</li>
+   	   <li>DML - Data Manipulation Language (trigger based on INSERT, UPDATE, DELETE)</li>
+   	   <li>CLR - based on the CLR (Common Language Runtime) in .NET framework</li>
+   	   <li>Login - fire when LOGON event of Sql Server is raised.</li>
+   	</ul>
+   </h6>
+
+<li>What's the difference between a primary key and a unique key?</li>
+   <h6>
+   Both primary key and unique key enforces uniqueness of the column on which they are defined. But by default primary key creates a clustered index on the column, where are unique creates a nonclustered index by default. Another major difference is that, primary key doesn't allow NULLs, but unique key allows one NULL only.
+   </h6>
+   
+<li>What is Log Shipping?</li>
+   <h6>
+   Log shipping is the process of automating the backup of database and transaction log files on a production SQL server, and then restoring them onto a standby server.
+   </h6>
+   
+<li>What is a Foreign Key?</li>
+   <h6>
+   A FOREIGN KEY constraint prevents any actions that would destroy links between tables with the corresponding data values. A foreign key in one table points to a primary key in another table. Foreign keys prevent actions that would leave rows with foreign key values when there are no primary keys with that value. The foreign key constraints are used to enforce referential integrity.
+   </h6>
+   
+<li>How to implement one-to-one, one-to-many, and many-to-many tables?
+  <h6>
+  One-to-One relationship can be implemented as a single table and rarely as two tables with primary and foreign key relationships. One-to-Many relationships are implemented by splitting the data into two tables with primary key and foreign key relationships. Many-to-Many relationships are implemented using a junction table with the keys from both the tables forming the composite primary key of the junction table.
+  </h6>
 
 ## Generic / Leftovers
 
