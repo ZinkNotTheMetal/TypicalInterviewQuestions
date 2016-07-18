@@ -165,16 +165,14 @@ Typical Interview Questions & Answers
 <li>What are advantages to using indexes?  Disadvantages?</li>
    <h6>Indexes (typically) speed up SELECT's and slow down INSERT's.</h6>
 
-<li>What are the difference between clustered and a non-clustered index?</li>
-<h6><li>A clustered index is a special type of index that reorders the way records in the table are physically stored.</li>
-   	<li>A non clustered index is a special type of index in which the logical order of the index does not match the physical stored order of the rows on disk.</li>
-   </h6>
+<li>What are the difference between clustered and a non-clustered index?</li><h6>
+<li>A clustered index is a special type of index that reorders the way records in the table are physically stored.</li>
+<li>A non clustered index is a special type of index in which the logical order of the index does not match the physical stored order of the rows on disk.</li></h6>
 
 <li>Is it possible to have temporary tables in Views?</li>
    <h6>No, a view consists of a single SELECT statement. You cannot create or drop tables in a view.</h6>
    
-<li>What are the different types of triggers?</li>
-<h6>
+<li>What are the different types of triggers?</li><h6>
    <li>DDL - Data Definition Language (trigger based on CREATE, ALTER, DROP)</li>
    <li>DML - Data Manipulation Language (trigger based on INSERT, UPDATE, DELETE)</li>
    <li>CLR - based on the CLR (Common Language Runtime) in .NET framework</li>
