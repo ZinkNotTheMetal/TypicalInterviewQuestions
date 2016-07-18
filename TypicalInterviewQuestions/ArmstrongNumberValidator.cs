@@ -26,7 +26,6 @@ namespace TypicalInterviewQuestions
 
         private int GetDigit(int input, int digitWanted)
         {
-            //if (digitWanted == 1) return input % 10;
             return Convert.ToInt32(Math.Floor(input / Math.Pow(10, digitWanted - 1))) % 10;
         }
     }
