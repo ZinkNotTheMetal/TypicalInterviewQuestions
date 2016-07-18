@@ -15,7 +15,7 @@ namespace TypicalInterviewQuestions
         /// <returns cref="int">-1 if not found. Or integer value if found.</returns>
         public int FindNumberWithinArray(int[] input)
         {
-            //Trying to find out what count is actually majority
+            //Trying to find out what count is, to determine what classifies as majority
             var majority = Math.Ceiling(input.Length / 2.0);
             if (input.Length % 2 == 0) majority = majority + 1;
 
