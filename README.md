@@ -108,6 +108,20 @@ An element with a higher z-index is always stacked above one with a lower index.
   
 ### WebForms
 
+<li>List all the ways to store data?</li>
+  <h6>
+    <ul>
+      <li>View state</li>
+      <li>Control state</li>
+      <li>Hidden fields</li>
+      <li>Cookies</li>
+      <li>Query strings</li>
+      <li>Application state</li>
+      <li>Session state</li>
+      <li>Profile Properties</li>
+    </ul>
+View state, control state, hidden fields, cookies, and query strings all involve storing data on the client in various ways. However, application state, session state, and profile properties all store data in memory on the server. Each option has distinct advantages and disadvantages, depending on the scenario.</h6>
+
 <li>List all page life-cycle events.</li>
    <h6>
    <ul>
