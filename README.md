@@ -23,7 +23,7 @@ Typical Interview Questions & Answers
   <h6>HTML is short for HyperText Markup Language, and is the language of the World Wide Web. It is the standard text formatting language used for creating and displaying pages on the Web.</h6>
 
 <li>How do you insert a comment in html?</li>
-  <h6>Using the <!-dash and -->
+  <h6>Using the <!-dash and --></h6>
   
 <li>What are Web Workers?</li>
   <h6>Web workers at long last bring multi-threading to JavaScript.<br />
