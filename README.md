@@ -19,6 +19,23 @@ Typical Interview Questions & Answers
   - [Generic / Leftovers](#generic--leftovers)
  
 ## HTML
+<li>What is HTML?</li>
+  <h6>HTML is short for HyperText Markup Language, and is the language of the World Wide Web. It is the standard text formatting language used for creating and displaying pages on the Web.</h6>
+
+<li>How do you insert a comment in html?</li>
+  <h6>Using the <!-dash and -->
+  
+<li>What are Web Workers?</li>
+  <h6>Web workers at long last bring multi-threading to JavaScript.<br />
+  A web worker is a script that runs in the background (i.e., in another thread) without the page needing to wait for it to complete. The user can continue to interact with the page while the web worker runs in the background. Workers utilize thread-like message passing to achieve parallelism.</h6>
+  
+<li>What is HTML 5 WebStorage? Explain the difference between localStorage and sessionStorage.</li>
+  <h6>With HTML5, web pages can store data locally within the user’s browser. <br/>
+Earlier, this was done with cookies. However, Web Storage is more secure and faster. The data is not included with every server request, but used ONLY when asked for.<br/>
+The data is stored in name/value pairs, and a web page can only access data stored by itself. Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the server.<br />
+The difference between localStorage and sessionStorage involves the lifetime and scope of the storage.<br />
+Data stored through localStorage is permanent: it does not expire and remains stored on the user’s computer until a web app deletes it or the user asks the browser to delete it. SessionStorage has the same lifetime as the top-level window or browser tab in which the script that stored it is running. When the window or tab is permanently closed, any data stored through sessionStorage is deleted. <br/>
+Both forms of storage are scoped to the document origin so that documents with different origins will never share the stored objects. But sessionStorage is also scoped on a per-window basis. If a user has two browser tabs displaying documents from the same origin, those two tabs have separate sessionStorage data: the scripts running in one tab cannot read or overwrite the data written by scripts in the other tab, even if both tabs are visiting exactly the same page and are running exactly the same scripts.</h6>
 
 ## CSS
 
@@ -144,8 +161,7 @@ Typical Interview Questions & Answers
 ### Generic C-Sharp
 
 <li>What are extension methods? What are some examples.</li>
-  <h6>Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type
-	LINQ, ToString, Split...</h6>
+  <h6>Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type<br/>LINQ, ToString, Split...</h6>
 	
 ### Entity Framework
 	
