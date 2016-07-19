@@ -183,9 +183,7 @@ View state, control state, hidden fields, cookies, and query strings all involve
 <li>What keyword prevents a class from being used as a base class?</li>
 	<h6>sealed</h6>
 <li>What keyword returns true if a cast will succeed?</li>
-	<h6>is</h6>	
-<li>What keyword returns true if a cast will succeed?</li>
-	<h6>is</h6>	
+	<h6>is</h6>
 <li>What keyword returns null if a cast will not succeed?</li>
 	<h6>as</h6>	
 <li>What keyword ensures code execution even if an exception occurs?</li>
