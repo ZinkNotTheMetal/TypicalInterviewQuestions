@@ -216,6 +216,9 @@ View state, control state, hidden fields, cookies, and query strings all involve
 
 <li>What are extension methods? What are some examples.</li>
   <h6>Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type<br/>LINQ, ToString, Split...</h6>
+  
+<li>What is the difference between the stack and the heap?</li>
+  <h6>The Stack is more or less responsible for keeping track of what's executing in our code (or what's been "called").  The Heap is more or less responsible for keeping track of our objects.</h6>
 	
 ### Entity Framework
 	
