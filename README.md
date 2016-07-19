@@ -39,8 +39,48 @@ Both forms of storage are scoped to the document origin so that documents with d
 
 ## CSS
 
+<li>What is CSS?</li>
+  <h6>The full form of CSS is Cascading Style Sheets. It is a styling language which is simple enough for HTML elements. It is popular in web designing, and its application is common in XHTML also.</h6>
+
+<li>What are pseudo classes and what are they used for?</li>
+  <h6>Pseudo classes are similar to classes, but are not explicitly defined in the markup, and are used to add additional effects to selected HTML elements such as link colors, hover actions, etc.<br/>
+Pseudo classes are defined by first listing the selector, followed by a colon and then pseudo-class element. E.g.,  a:link{ color: blue }, or a:visited { color: red }</h6>
+
+<li>What are the three main ways to apply CSS styles to a Web page?</li>
+  <h6>
+    <ul>
+      <li>Inline - although this method goes against best practices, it is easily done adding the style tag to an element</li>
+      <li>Internal - Done by defining the head of an HTML document by wrapping characteristics in a style tag.</li>
+      <li>External - Done by referencing an external style sheet in the head of an HTML document</li>
+    </ul>
+  </h6>
+ 
+<li>What are child selectors?</li>
+  <h6>Child selectors are another way to group and style a set of elements that descend from a parent element.
+A child selector is matched by calling two or more elements, separated by a ‘>’ sign to indicate inheritance.</h6>
+
+<li>What is the CSS Box Model used for? What are the elements that it includes?</li>
+  <h6>CSS box model is made up of margins, borders, padding, and content.<br />
+Box model provides a structured way to space elements in relationship to each other.</h6>
+
+<li>What is the purpose of the z-index and how is it used?</li>
+  <h6>The z-index helps specify the stack order of positioned elements that may overlap one another. The z-index default value is zero, and can take on either a positive or negative number.<br/>
+An element with a higher z-index is always stacked above one with a lower index.</h6>
+
+
+
 ## JavaScript
 
+<li>What is the difference between == and === ?</li>
+  <h6>The 3 equal signs mean "equality without type coercion". Using the triple equals, the values must be equal in type as well.<br/>
+== is equal to <br />
+=== is exactly equal to (value and type)<br />
+0==false // true <br />
+0===false // false, because they are of a different type<br />
+  </h6>
+
+<li>What is 'this' in JavaScript</li>
+  <h6>In JavaScript, 'this' normally refers to the object which 'owns' the method, but it depends on how a function is called.</h6>
 
 ## ASP.NET
 
