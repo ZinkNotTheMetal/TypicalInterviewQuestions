@@ -153,6 +153,12 @@ View state, control state, hidden fields, cookies, and query strings all involve
 ### Class
 <li>Can a class have more than one direct base class?</li>
 	<h6>No</h6>
+	
+<li>What is a POCO</li>
+  <h6>
+  It stands for Plain old C (or C#) object. It is typically a class that contains multiple properties and has 0 functionality.
+  </h6>
+
 <li>Difference between Abstract class & Interface</li>
 <h6>An abstract class can have shared state or functionality. An interface is only a promise to provide the
 	 state or functionality. A good abstract class will reduce the amount of code that has to be rewritten 
@@ -274,6 +280,11 @@ View state, control state, hidden fields, cookies, and query strings all involve
    Both primary key and unique key enforces uniqueness of the column on which they are defined. But by default primary key creates a clustered index on the column, where are unique creates a nonclustered index by default. Another major difference is that, primary key doesn't allow NULLs, but unique key allows one NULL only.
    </h6>
    
+<li>What is SQL Injection</li>
+   <h6>
+   Refers to an attack where a malicious user is trying to execute SQL statements that control a web application's database server.
+   </h6>
+   
 <li>What is Log Shipping?</li>
    <h6>
    Log shipping is the process of automating the backup of database and transaction log files on a production SQL server, and then restoring them onto a standby server.
@@ -287,6 +298,10 @@ View state, control state, hidden fields, cookies, and query strings all involve
 <li>How to implement one-to-one, one-to-many, and many-to-many tables?
   <h6>
   One-to-One relationship can be implemented as a single table and rarely as two tables with primary and foreign key relationships. One-to-Many relationships are implemented by splitting the data into two tables with primary key and foreign key relationships. Many-to-Many relationships are implemented using a junction table with the keys from both the tables forming the composite primary key of the junction table.
+  </h6>
+
+<li>Should you use a GUID as a primary key? why or why not?</li>
+  <h6>There are positives and negatives to using GUIDs. if they are not sequential you should NOT use them as primary keys. As they cannot be easily clustered and SQL Server defaults to clustering. This can cause big performace problems on the database server. It is also 4 times larger than using the traditional 4-byte index values that can also cause performance problems.
   </h6>
 
 ## Generic / Leftovers
@@ -306,3 +321,8 @@ View state, control state, hidden fields, cookies, and query strings all involve
 
 <li>What is Rest</li>
 	<h6>ReST stands for Representational State Transfer, it is an architecture style for designing networked applications. It uses stateless HTTP calls, rather than complex systems like SOAP, RPC, or COBRA</h6>
+	
+<li>What is an ORM?</li>
+  <h6>
+  It stands for Object relational mapper, it is a tool that converts incompatible data types to object-oriented types. There are many different ORMs. A few examples would be Entity Framework, NHibernate. A few examples of MicroOrms would be Dapper, Insight DB, Simple.Data. For more information on Object relational mappers check out my Github project [MicroOrm Comparison](https://github.com/ZinkNotTheMetal/MicroOrmComparison)
+  </h6>
