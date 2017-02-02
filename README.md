@@ -297,4 +297,12 @@ View state, control state, hidden fields, cookies, and query strings all involve
 <li>Inheritance vs Composition.  Which one should you choose?</li>
 	<h6>Favor composition over inheritance</h6>
 
+<li>What is SOLID?</li>
+	<h6> S - Single Responsibility - one class does 1 thing</h6>
+	<h6> O - Open / Closed - Open for extension, closed for modification</h6>
+	<h6> L - Liskov Substitution Principle - classes should be able to be switched out easily</h6>
+	<h6> I - Interface Segregation - many client-specific interfaces are better than one general-purpose interface.</h6>
+	<h6> D - Dependency Inversion - not to be confused with Dependency Injection, entities / layers depend on abstractions not concretions.</h6>
 
+<li>What is Rest</li>
+	<h6>ReST stands for Representational State Transfer, it is an architecture style for designing networked applications. It uses stateless HTTP calls, rather than complex systems like SOAP, RPC, or COBRA</h6>
