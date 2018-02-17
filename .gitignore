@@ -15,3 +15,7 @@
 /TypicalInterviewQuestions/obj/Debug
 /TypicalInterviewQuestions.Tests/bin/Debug
 /TypicalInterviewQuestions.Tests/obj/Debug
+/.vs
+/FizzBuzz.Application/obj/Release
+/TypicalInterviewQuestions/obj/Release
+/TypicalInterviewQuestions.Tests/obj/Release
