@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypicalInterviewQuestions", "TypicalInterviewQuestions\TypicalInterviewQuestions.csproj", "{95FE6EAB-7452-47BB-849C-AEAF7CDBC6AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Application", "..\FizzBuzz.Application\FizzBuzz.Application.csproj", "{34E7A7CD-AC81-42EA-98EC-5435C287015B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypicalInterviewQuestions.Tests", "TypicalInterviewQuestions.Tests\TypicalInterviewQuestions.Tests.csproj", "{2B64AC84-62C9-41EC-88C5-66C958FBF117}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypicalInterviewQuestions", "..\TypicalInterviewQuestions\TypicalInterviewQuestions.csproj", "{95FE6EAB-7452-47BB-849C-AEAF7CDBC6AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Application", "FizzBuzz.Application\FizzBuzz.Application.csproj", "{34E7A7CD-AC81-42EA-98EC-5435C287015B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypicalInterviewQuestions.Tests", "..\TypicalInterviewQuestions.Tests\TypicalInterviewQuestions.Tests.csproj", "{2B64AC84-62C9-41EC-88C5-66C958FBF117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95FE6EAB-7452-47BB-849C-AEAF7CDBC6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95FE6EAB-7452-47BB-849C-AEAF7CDBC6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FE6EAB-7452-47BB-849C-AEAF7CDBC6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,15 +27,11 @@ Global
 		{2B64AC84-62C9-41EC-88C5-66C958FBF117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B64AC84-62C9-41EC-88C5-66C958FBF117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B64AC84-62C9-41EC-88C5-66C958FBF117}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34E7A7CD-AC81-42EA-98EC-5435C287015B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4AB7D2E3-E151-4694-A136-CDEBA58A796A}
+		SolutionGuid = {FCA33F60-E976-4185-B77E-0974DD06E3AB}
 	EndGlobalSection
 EndGlobal

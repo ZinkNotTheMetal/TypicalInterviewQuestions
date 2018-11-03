@@ -19,3 +19,12 @@
 /FizzBuzz.Application/obj/Release
 /TypicalInterviewQuestions/obj/Release
 /TypicalInterviewQuestions.Tests/obj/Release
+/CSharp/FizzBuzz.Application/obj/Debug
+/CSharp/TypicalInterviewQuestions/obj/Debug
+/CSharp/TypicalInterviewQuestions.Tests/obj/Debug
+/CSharp/TypicalInterviewQuestions.sln/packages
+/CSharp/TypicalInterviewQuestions/bin/Debug
+/CSharp/FizzBuzz.Application/bin/Debug
+/CSharp/TypicalInterviewQuestions.Tests/bin/Debug
+/CSharp/TypicalInterviewQuestions.sln/.vs/TypicalInterviewQuestions/v15
+/CSharp/TypicalInterviewQuestions.sln/TypicalInterviewQuestions.v3.ncrunchsolution.user
