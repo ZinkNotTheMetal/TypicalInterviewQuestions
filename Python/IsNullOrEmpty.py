@@ -1,5 +1,5 @@
-
-def IsNullOrEmpty( input ):
+# Quick function to give us the ability to check IsNoneOrEmpty on a variable in Python
+def IsNoneOrEmpty( input ):
     if input == None:
         return True
     elif len(input) == 0:
@@ -8,7 +8,7 @@ def IsNullOrEmpty( input ):
         return False
 
 
-print(IsNullOrEmpty(None))
-print(IsNullOrEmpty(""))
-print(IsNullOrEmpty("hello"))
-print(IsNullOrEmpty("null"))
+print(IsNoneOrEmpty(None))
+print(IsNoneOrEmpty(""))
+print(IsNoneOrEmpty("hello"))
+print(IsNoneOrEmpty("null"))

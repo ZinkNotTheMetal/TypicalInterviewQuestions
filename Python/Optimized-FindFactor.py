@@ -1,5 +1,7 @@
 import math
 
+# Following an algorithm that I found online - https://www.geeksforgeeks.org/find-divisors-natural-number-set-1/
+#  I came up with my own solution below
 def FindAllFactors( numberToFactor ): 
     ceiling = int(math.ceil(math.sqrt(numberToFactor)))
     result = list()
@@ -11,7 +13,7 @@ def FindAllFactors( numberToFactor ):
             else:
                 result.append(i)
                 result.append(int(numberToFactor / i))
-    
+    # Print can be modified here to change the output of the function to whatever you desire
     print('The NumberToFactor: %s! With sorted result of factors: %s.'%(numberToFactor,sorted(result)))
 
 FindAllFactors(42)
